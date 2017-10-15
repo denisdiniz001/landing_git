@@ -1,0 +1,132 @@
+/**CONTENT-SELECTOR**/
+/* line 4, ../../sass/generated/recursos/_content_selector.scss */
+.content-selector .content-item {
+  display: none;
+  text-align: center;
+}
+/* line 8, ../../sass/generated/recursos/_content_selector.scss */
+.content-selector .content-item.active {
+  display: block;
+}
+/* line 13, ../../sass/generated/recursos/_content_selector.scss */
+.content-selector ul.item-selector {
+  text-align: center;
+}
+/* line 16, ../../sass/generated/recursos/_content_selector.scss */
+.content-selector ul.item-selector li {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 1.5em;
+  width: 100%;
+  margin: 0 auto;
+  width: 1.3em;
+  padding: 0.2em;
+  display: inline-block;
+}
+/* line 26, ../../sass/generated/recursos/_content_selector.scss */
+.content-selector ul.item-selector li.item {
+  height: 0.8em;
+  background-size: 0.8em;
+  background-image: url("../../img/circle-shape-outline.svg");
+  background-repeat: no-repeat;
+}
+/* line 32, ../../sass/generated/recursos/_content_selector.scss */
+.content-selector ul.item-selector li.item.active {
+  background-image: url("../../img/circular-shape-white.svg");
+  background-repeat: no-repeat;
+}
+
+/** MEDIA QUERIES **/
+/** Maximun Width 768PX **/
+@media (max-width: 767px) {
+  /* line 46, ../../sass/generated/recursos/_content_selector.scss */
+  .content-selector .content-item {
+    width: 100%;
+    border-bottom: 2px solid #e7e7e7;
+    display: block;
+  }
+  /* line 51, ../../sass/generated/recursos/_content_selector.scss */
+  .content-selector .content-item:last-of-type {
+    border-bottom: transparent;
+  }
+  /* line 55, ../../sass/generated/recursos/_content_selector.scss */
+  .content-selector .item-selector {
+    display: none;
+  }
+}
+/**PRICE-BOX**/
+/* line 2, ../../sass/generated/recursos/_price_box.scss */
+.price-box {
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  top: 2em;
+}
+/* line 9, ../../sass/generated/recursos/_price_box.scss */
+.price-box:hover {
+  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+/* line 15, ../../sass/generated/recursos/_price_box.scss */
+.price-box ul {
+  background-color: #FFF;
+  margin: 0;
+}
+/* line 19, ../../sass/generated/recursos/_price_box.scss */
+.price-box ul li {
+  border-bottom: 2px solid #e7e7e7;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0.5em;
+}
+/* line 25, ../../sass/generated/recursos/_price_box.scss */
+.price-box ul li:first-of-type {
+  font-size: 2em;
+  color: #000000;
+}
+/* line 29, ../../sass/generated/recursos/_price_box.scss */
+.price-box ul li:first-of-type span {
+  font-size: 0.6em;
+  position: relative;
+  top: -0.4em;
+}
+/* line 35, ../../sass/generated/recursos/_price_box.scss */
+.price-box ul li:last-of-type {
+  border-bottom: 0px solid transparent;
+}
+/* line 41, ../../sass/generated/recursos/_price_box.scss */
+.price-box h2,
+.price-box div {
+  background-color: #3399DB;
+  color: #FFF;
+  margin: 0;
+  padding: 0.2em;
+}
+/* line 48, ../../sass/generated/recursos/_price_box.scss */
+.price-box h2 button,
+.price-box div button {
+  background-color: #0d74b9;
+  margin: 0.5em;
+}
+
+/** MEDIA QUERIES **/
+/** Maximun Width 768PX **/
+@media (max-width: 767px) {
+  /* line 59, ../../sass/generated/recursos/_price_box.scss */
+  .price-box {
+    margin-top: 0.5em;
+  }
+  /* line 61, ../../sass/generated/recursos/_price_box.scss */
+  .price-box:hover {
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+/* line 5, ../../sass/generated/recursos.scss */
+.parallax {
+  background: center center no-repeat fixed;
+  background-size: cover;
+}

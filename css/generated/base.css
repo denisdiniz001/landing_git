@@ -1,0 +1,66 @@
+/* line 3, ../../sass/generated/base.scss */
+html,
+body {
+  color: #838383;
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 7, ../../sass/generated/base.scss */
+html p,
+html a,
+body p,
+body a {
+  color: #838383;
+}
+/* line 11, ../../sass/generated/base.scss */
+html h2,
+html h3,
+body h2,
+body h3 {
+  color: #000000;
+}
+/* line 15, ../../sass/generated/base.scss */
+html .logo,
+body .logo {
+  width: 15em;
+}
+/* line 18, ../../sass/generated/base.scss */
+html .center,
+body .center {
+  text-align: center;
+}
+
+/* line 23, ../../sass/generated/base.scss */
+div[id^="section_"] {
+  padding: 5%;
+}
+/* line 26, ../../sass/generated/base.scss */
+div[id^="section_"]:nth-child(even) {
+  background-color: #E7E7E7;
+}
+/* line 29, ../../sass/generated/base.scss */
+div[id^="section_"]:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+/* line 34, ../../sass/generated/base.scss */
+.feature {
+  width: 33.33%;
+  float: left;
+  padding: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  min-height: 20em;
+}
+/* line 42, ../../sass/generated/base.scss */
+.feature img {
+  width: 6em;
+  margin: 0 auto;
+}
+
+/* line 47, ../../sass/generated/base.scss */
+.line {
+  border-left: 1em solid #FFF;
+  border-right: 1em solid #FFF;
+  height: 2px;
+  background-color: #e7e7e7;
+}

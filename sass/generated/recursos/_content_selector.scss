@@ -1,0 +1,59 @@
+/**CONTENT-SELECTOR**/
+.content-selector{
+    
+    .content-item{
+        display: none;
+        text-align: center;
+        
+        &.active{
+            display: block;
+        }
+    }
+    ul{
+        &.item-selector{
+            text-align: center;
+            
+            li {
+                position: relative;
+                margin-bottom: 0;
+                padding-bottom: 1.5em;
+                width: 100%;
+                margin: 0 auto;
+                width: 1.3em;
+                padding: 0.2em;
+                display: inline-block;
+                
+                &.item {
+                    height: 0.8em;
+                    background-size: 0.8em;
+                    background-image: url("../../img/circle-shape-outline.svg");
+                    background-repeat: no-repeat;
+                    
+                    &.active {
+                        background-image: url("../../img/circular-shape-white.svg");
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** MEDIA QUERIES **/
+/** Maximun Width 768PX **/
+@media (max-width: 767px) {
+    .content-selector{
+        .content-item{
+            width: 100%;
+            border-bottom: 2px solid #e7e7e7;
+            display: block;
+            
+            &:last-of-type{
+                border-bottom: transparent;
+            }
+        }
+        .item-selector{
+            display: none;
+        }
+    }
+}
