@@ -1,0 +1,52 @@
+@import '_values';
+
+html,
+body{
+    color: $text-color;
+    font-family: 'Open Sans', sans-serif;
+    p,
+    a{
+        color: $text-color;
+    }
+    h2,
+    h3{
+        color: #000000;
+    }
+    .logo{
+        width: 15em;
+    }
+    .center{
+        text-align: center;
+    }
+}
+
+div[id^="section_"]{
+    padding: 5%;
+    
+    &:nth-child(even) {
+        background-color: $background-color-even;
+    }
+    &:nth-child(odd) {
+        background-color: $background-color-odd;
+    }
+}
+
+.feature{
+    width: 33.33%;
+    float: left;
+    padding: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    min-height: 20em;
+    
+    img{
+        width: 6em;
+        margin: 0 auto;
+    }
+}
+.line{
+    border-left: 1em solid #FFF;
+    border-right: 1em solid #FFF;
+    height: 2px;
+    background-color: #e7e7e7;
+}

@@ -1,0 +1,8 @@
+@import '_values';
+@import 'recursos/_content_selector';
+@import 'recursos/_price_box';
+
+.parallax{
+    background: center center no-repeat fixed;
+    background-size: cover;
+}
